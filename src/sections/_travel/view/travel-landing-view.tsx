@@ -12,8 +12,7 @@ import TravelLandingHero from '../landing/travel-landing-hero';
 import TravelTestimonial from '../testimonial/travel-testimonial';
 import TravelLandingSummary from '../landing/travel-landing-summary';
 import TravelLandingIntroduce from '../landing/travel-landing-introduce';
-import TravelLandingToursByCity from '../landing/travel-landing-tours-by-city';
-import TravelLandingTourFeatured from '../landing/travel-landing-tour-featured';
+
 import BlogTravelLandingLatestPosts from '../../blog/travel/travel-landing-posts';
 import TravelLandingFavoriteDestinations from '../landing/travel-landing-favorite-destinations';
 
@@ -23,7 +22,7 @@ export default function TravelLandingView() {
   return (
     <>
       <Box sx={{ position: 'relative' }}>
-       
+
         <Container
           sx={{
             mb: { md: 10 },
