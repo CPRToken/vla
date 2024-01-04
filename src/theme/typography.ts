@@ -65,12 +65,7 @@ export const quaternaryFont = Playfair_Display({
   fallback: ['serif'], // Fallback to a generic serif font
 });
 
-export const quinaryFont = Montserrat({
-  weight: ['100','200', '300','400','500', '700'], // Example weights, adjust as needed
-  subsets: ['latin'],
-  display: 'swap',
-  fallback: ['serif'], // Fallback to a generic serif font
-});
+
 
 // ----------------------------------------------------------------------
 
@@ -82,7 +77,7 @@ export const typography = {
   fontSecondaryFamily: secondaryFont.style.fontFamily,
   fontTertiaryFamily: tertiaryFont.style.fontFamily,
   fontQuaternaryFamily: quaternaryFont.style.fontFamily,
-  fontQuinaryFamily: quinaryFont.style.fontFamily,
+
   fontWeightThin: 100,
    fontWeightLight: 300,
   fontWeightRegular: 400,
@@ -107,7 +102,7 @@ export const typography = {
     fontWeight: 200,
     lineHeight: 1.5,
     fontSize: pxToRem(17),
-    fontFamily: quinaryFont.style.fontFamily,
+    fontFamily: quaternaryFont.style.fontFamily,
     ...responsiveFontSizes({ sm: 26, md: 30, lg: 32 }),
   },
   h4: {
